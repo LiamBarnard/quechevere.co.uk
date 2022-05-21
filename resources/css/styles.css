@@ -2,12 +2,16 @@
 #e0dcdc / rgb(224, 220, 220) - Grey
 #bd3200 / rgb(189, 50, 0) - Dark Orange
 #ffa01e / rgb(255, 160, 30) - Orange
+Breakpoints 1200 >
 
 /*Global Styles*/
 * {
     font-family: open;
     font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 
 
@@ -59,7 +63,7 @@
     font-size: 1rem;
     text-align: right;
     color: #bd3200;
-    padding: 0.5rem;
+    height: 1rem;
 }
 
 .header-socials-buttons {
