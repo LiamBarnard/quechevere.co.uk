@@ -261,22 +261,24 @@
 }
 
 .infographics p {
-    padding: 1rem;
+    padding: 0rem 1rem;
+    margin: 1rem 4rem;
     text-align: center;
     color: #fff;
 }
 
 .infographics a {
     display: flex;
+    font-size: 1.25rem;
+    width: 200px;
     text-decoration: none;
     justify-content: center;
     vertical-align: middle;
-    width: 33%;
     background-color: #ffa01e;
     color: white;
     margin: 0px auto;
     margin-bottom: 2rem;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 50px;
     text-align: center;
 }
