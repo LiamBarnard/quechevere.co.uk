@@ -456,14 +456,13 @@ footer {
 
 .history-grid {
     display: grid;
-    width: 100%;
+    width: 60%;
     margin: 0px auto;
     grid-template-rows: 1fr 2fr 1fr 2fr;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     padding: 2.5rem;
     color: #bd3200;
-    background-color: #e0dcdc;
 }
 
 .history-grid h3 {
@@ -543,6 +542,106 @@ footer {
     border: 1px solid #bd3200;
 }
 
+/*Que Chevere Store*/
+/*Store Section*/
+.order-information {
+    background-color: #e0dcdc;
+    text-align: center;
+    padding-top: 5rem;
+}
 
+.order-information h2 {
+    font-size: 2.5rem;
+    color: #3d1000;
+    font-weight: 700;
+    margin: 2.5rem auto;
+}
 
+.order-information p {
+    color: #bd3200;
+    font-size: 1.5rem;
+    width: 60%;
+    margin: 0px auto;
+    padding: 1rem;
+}
+
+.order-information a {
+    display: inline-flex;
+    background-color: #ffa01e;
+    text-decoration: none;
+    color: white;
+    margin: 2rem 5px;
+    border: 25px solid #ffa01e;
+    border-radius: 50px;
+    padding: 0px 5px;
+}
+
+.order-information a:hover {
+    background-color: #bd3200;
+    border: 25px solid #bd3200;
+    padding: 0px 5px;
+    border-radius: 50px;
+}
+
+.order-grid {
+    display: grid;
+    max-width: 60%;
+    margin: 0px auto;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 2.5rem;
+    color: #bd3200;
+}
+
+.order-grid h3 {
+    font-size: 1.75rem;
+    padding: 1rem;
+    color: #3d1000;
+    font-weight: 700;
+}
+
+.order-grid p {
+    width: 50%;
+    margin: 0px auto;
+    letter-spacing: 1.5px;
+}
+
+.site-shop {
+    background-color: #e0dcdc;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    border: 2.5rem solid #e0dcdc;
+}
+
+.shop-container {
+    border: 1px solid #bd3200;
+    margin: 2.5rem;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.site-shop img {
+    height: 300px;
+}
+
+.site-shop h4 {
+    color: #ffa01e;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.site-shop p {
+    width: 75%;
+    margin: 0px auto;
+    padding: 1rem;
+    letter-spacing: 1.5px;
+    color: #bd3200;
+}
+
+.site-shop h5 {
+    color: #bd3200;
+    font-weight: 700;
+}
 
