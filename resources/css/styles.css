@@ -540,6 +540,7 @@ footer {
     padding: 1rem 2.5rem;
     margin: 2.5rem;
     border: 1px solid #bd3200;
+    border-radius: 25px;
 }
 
 /*Que Chevere Store*/
@@ -645,3 +646,30 @@ footer {
     font-weight: 700;
 }
 
+/*Contact Page*/
+/*Contact Info*/
+.contact-info {
+    background-color: #e0dcdc;
+    text-align: center;
+    padding: 5rem;
+}
+
+.contact-info h3 {
+    font-size: 2.5rem;
+    color: #bd3200;
+}
+
+.contact-info h4 {
+    color: #bd3200;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+
+.mobile-number, .email-address, .contact-info a {
+    text-decoration: underline;
+    color: #ffa01e;
+}
+
+.contact-info p {
+    color: #ffa01e;
+}
