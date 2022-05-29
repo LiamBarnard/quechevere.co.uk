@@ -10,9 +10,9 @@ html {
     font-size: 16px;
     letter-spacing: 1.5px;
     font-family: Helvetica, Arial, sans-serif;
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 /*Header Section*/
@@ -594,67 +594,198 @@ html {
     }
 }
 
-/*Contact Section*/
-.contact-main {
-    background-image: url('../img/contact-bg.png');
-    padding: 20px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #bd3200;
-  }
+@media only screen and (max-width:480px) {
+    .infographics {
+        visibility: hidden;
+        position: absolute;
+    }
 
-  .contact-form img {
-      height: 50px;
-      margin: 1rem;
-  }
+    .infographics-medium-display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #bd3200;
+        color: #fff;
+    }
 
-  .contact-form p {
-      color: #fff;
-        font-size: 2rem;
-        width: 50%;
+    .infographics-medium-display div {
+        width: 160px;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .infographics-medium-display img {
+        vertical-align: middle;
         margin: 0px auto;
-  }
+        padding: 0.5rem;
+    }
 
-  .contact-form form {
-      text-align: left;
-      color: #fff;
-      width: 60%;
-      margin: 0px auto;
-    padding: 2.5rem 10rem;
-    justify-content: center;
-  }
+    .infographics-medium-display h2 {
+        font-size: 1rem;
+        padding: .5rem;
+        justify-content: center;
+        vertical-align: middle;
+    }
 
-input[type=text], input[type=email], select, textarea {
-    display: flex;
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #bd3200;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: 16px auto;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    display: flex;
-    background-color: #ffa01e;
-    text-decoration: none;
-    color: white;
-    width: 250px;
-    margin: 2rem auto;
-    border: 25px solid #ffa01e;
-    border-radius: 50px;
-    padding: 0px 5px;
-    justify-content: center;
+    .infographics-medium-display p {
+        margin: 0.5rem 0;
+        text-align: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .infographics-medium-display a {
+        display: flex;
+        font-size: 1rem;
+        width: 100px;
+        text-decoration: none;
+        justify-content: center;
+        vertical-align: middle;
+        background-color: #ffa01e;
+        color: white;
+        margin: 0px auto;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    .infographics-medium-display a:hover {
+        background-color: #bd3200;
+        border: 15px solid #bd3200;
+        padding: 0px 5px;
+        border-radius: 25px;
+    }
 }
 
-input[type=submit]:hover {
-    background-color: #bd3200;
-    border: 25px solid #bd3200;
-    padding: 0px 5px;
-    border-radius: 50px;
+
+/*Contact Section*/
+@media only screen and (min-width:769px) {
+    .contact-main {
+        background-image: url('../img/contact-bg.png');
+        padding: 20px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #bd3200;
+    }
+
+    .contact-form img {
+        height: 50px;
+        margin: 1rem;
+    }
+
+    .contact-form p {
+        color: #fff;
+            font-size: 2rem;
+            width: 50%;
+            margin: 0px auto;
+    }
+
+    .contact-form form {
+        text-align: left;
+        color: #fff;
+        width: 60%;
+        margin: 0px auto;
+        padding: 2.5rem 10rem;
+        justify-content: center;
+    }
+
+    input[type=text], input[type=email], select, textarea {
+        display: flex;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #bd3200;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin: 16px auto;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        display: flex;
+        background-color: #ffa01e;
+        text-decoration: none;
+        color: white;
+        width: 250px;
+        margin: 2rem auto;
+        border: 25px solid #ffa01e;
+        border-radius: 50px;
+        padding: 0px 5px;
+        justify-content: center;
+    }
+
+    input[type=submit]:hover {
+        background-color: #bd3200;
+        border: 25px solid #bd3200;
+        padding: 0px 5px;
+        border-radius: 50px;
+    }
 }
+
+@media only screen and (max-width:768px) {
+    .contact-main {
+        background-image: url('../img/contact-bg.png');
+        padding: 20px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #bd3200;
+    }
+
+    .contact-form img {
+        height: 50px;
+        margin: 1rem;
+    }
+
+    .contact-form p {
+        color: #fff;
+            font-size: 1.5rem;
+            width: 80%;
+            margin: 0px auto;
+    }
+
+    .contact-form form {
+        text-align: left;
+        color: #fff;
+        width: 90%;
+        margin: 0px auto;
+        padding: 2.5rem 0rem;
+        justify-content: center;
+    }
+
+    input[type=text], input[type=email], select, textarea {
+        display: flex;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #bd3200;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin: 16px auto;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        display: flex;
+        background-color: #ffa01e;
+        text-decoration: none;
+        color: white;
+        width: 150px;
+        margin: 2rem auto;
+        border: 25px solid #ffa01e;
+        border-radius: 50px;
+        padding: 0px 5px;
+        justify-content: center;
+    }
+
+    input[type=submit]:hover {
+        background-color: #bd3200;
+        border: 25px solid #bd3200;
+        padding: 0px 5px;
+        border-radius: 50px;
+    }
+}
+
 
 /*Accreditation Banner*/
 @media only screen and (min-width:1200px) {
