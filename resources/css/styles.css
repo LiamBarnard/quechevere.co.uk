@@ -657,15 +657,47 @@ input[type=submit]:hover {
 }
 
 /*Accreditation Banner*/
-.accreditations {
-    display: flex;
-    background-color: #e0dcdc;
-    justify-content: center;
+@media only screen and (min-width:1200px) {
+    .accreditations {
+        display: flex;
+        background-color: #e0dcdc;
+        justify-content: center;
+    }
+
+    .accreditations img {
+        width: 300px;
+        padding: 2.5rem;
+    }
 }
 
-.accreditations img {
-    width: 300px;
-    padding: 2.5rem;
+@media only screen and (max-width:1199px) {
+    .accreditations {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #e0dcdc;
+        justify-content: center;
+    }
+
+    .accreditations img {
+        width: 350px;
+        padding: 2.5rem;
+        width: vh;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .accreditations {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #e0dcdc;
+        justify-content: center;
+    }
+
+    .accreditations img {
+        width: 310px;
+        padding: 2.5rem;
+        display: block;
+    }
 }
 
 /*Footer Section*/
